@@ -51,7 +51,7 @@ const userPrompt = () => {
           "Add a Role",
           "View all Employees",
           "Add an Employee", //need to add 
-          "Update Employee role",
+          "Update Employee role",//need to add
           "Exit Employee Tracker",
         ],
         loop: false,
@@ -96,3 +96,5 @@ const userPrompt = () => {
 //create difference functions that execute different commands 
 //each function will follow the acceptance criteria description 
 //combine all functions in the promptuser function that will present the options adn output to user 
+
+
