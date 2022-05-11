@@ -10,6 +10,7 @@ const {
   viewAllEmployees,
   addADepartment,
   addARole,
+  addEmployee,
 
 } = require('./lib/function');
 
@@ -84,6 +85,10 @@ const userPrompt = () => {
       if (options === "View all Employees") {
         viewAllEmployees();
         setTimeout(function() {userPrompt();}, 3000);
+      }
+      if (options === "Add an Employee") {
+        addEmployee();
+        setTimeout(function() {userPrompt();}, 10000);
       }
 
       if (options === "Exit Employee Tracker") {
