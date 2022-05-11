@@ -88,7 +88,7 @@ const userPrompt = () => {
       }
       if (options === "Add an Employee") {
         addEmployee();
-        setTimeout(function() {userPrompt();}, 10000);
+        setTimeout(function() {userPrompt();}, 30000);
       }
 
       if (options === "Exit Employee Tracker") {
