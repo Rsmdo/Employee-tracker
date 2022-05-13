@@ -11,6 +11,7 @@ const {
   addADepartment,
   addARole,
   addEmployee,
+  updateEmployeeRole
 
 } = require('./lib/function');
 
@@ -89,6 +90,11 @@ const userPrompt = () => {
       }
       if (options === "Add an Employee") {
         addEmployee();
+        console.log("Please wait for Menu to appear")
+        setTimeout(function() {userPrompt();}, 20000);
+      }
+      if (options === "Update Employee role") {
+        updateEmployeeRole();
         console.log("Please wait for Menu to appear")
         setTimeout(function() {userPrompt();}, 20000);
       }
