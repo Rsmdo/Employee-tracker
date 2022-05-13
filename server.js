@@ -64,7 +64,7 @@ const userPrompt = () => {
 
       if (options === "View all Departments") {
         viewAllDepartments();
-        setTimeout(function() {userPrompt();}, 3000);
+       setTimeout(function() {userPrompt();}, 3000);
       }
       if (options === "Add a Department") {
         addADepartment();
@@ -79,7 +79,8 @@ const userPrompt = () => {
 
       if (options === "Add a Role") {
         addARole();
-        setTimeout(function() {userPrompt();}, 10000);
+        console.log("Please For Menu to appear")
+        setTimeout(function() {userPrompt();}, 20000);
       }
 
       if (options === "View all Employees") {
@@ -88,7 +89,8 @@ const userPrompt = () => {
       }
       if (options === "Add an Employee") {
         addEmployee();
-        setTimeout(function() {userPrompt();}, 30000);
+        console.log("Please wait for Menu to appear")
+        setTimeout(function() {userPrompt();}, 20000);
       }
 
       if (options === "Exit Employee Tracker") {
