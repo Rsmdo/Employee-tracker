@@ -96,7 +96,7 @@ const userPrompt = () => {
       if (options === "Update Employee role") {
         updateEmployeeRole();
         console.log("Please wait for Menu to appear")
-        setTimeout(function() {userPrompt();}, 20000);
+        setTimeout(function() {userPrompt();}, 10000);
       }
 
       if (options === "Exit Employee Tracker") {
