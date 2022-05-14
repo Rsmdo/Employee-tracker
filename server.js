@@ -69,7 +69,7 @@ const userPrompt = () => {
       }
       if (options === "Add a Department") {
         addADepartment();
-        setTimeout(function() {userPrompt();}, 3000);
+        setTimeout(function() {userPrompt();}, 10000);
       }
 
 
